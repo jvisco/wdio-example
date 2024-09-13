@@ -1,3 +1,7 @@
+# Cucumber
+@rerun.txt
+reports
+
 # Logs
 logs
 *.log

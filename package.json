@@ -1,0 +1,29 @@
+{
+  "name": "wdio-example",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "npx wdio run wdio.conf.mjs --cucumberOpts.tags='(@test and not @ignore)'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvisco/wdio-example.git"
+  },
+  "author": "jvisco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jvisco/wdio-example/issues"
+  },
+  "homepage": "https://github.com/jvisco/wdio-example#readme",
+  "type": "module",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.3.1",
+    "@cucumber/pretty-formatter": "^1.0.0",
+    "@wdio/cli": "9.0.9",
+    "@wdio/cucumber-framework": "9.0.8",
+    "@wdio/dot-reporter": "9.0.8",
+    "@wdio/local-runner": "9.0.9",
+    "@wdio/spec-reporter": "9.0.8",
+    "chai": "^4.3.8"
+  }
+}
