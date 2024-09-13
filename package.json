@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "npx wdio run wdio.conf.mjs --cucumberOpts.tags='(@test and not @ignore)'"
+    "api": "npx cucumber-js --tags='@test'",
+    "ui": "npx wdio run wdio.conf.mjs --cucumberOpts.tags='(@test and not @ignore)'"
   },
   "repository": {
     "type": "git",
